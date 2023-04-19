@@ -11,7 +11,7 @@ export default function index() {
 			<img src="/face.jpg-removebg-preview.png" alt="" className="object-cover h-80 sm:h-80 lg:h-80 w-80 xl:h-112 2xl:h-128" />
 		</div>
 		<div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-			<h1 className="text-5xl font-bold leading-none sm:text-6xl">Hi I'm
+			<h1 className="text-2xl font-bold leading-none sm:text-6xl">Hi I'm
 				<span className="dark:text-violet-400 px-2">Sourasis</span>Pal
 			</h1>
 			<p className="mt-6 mb-8 text-base sm:mb-12">Full Stack Web Developer
