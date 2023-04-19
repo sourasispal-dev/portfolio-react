@@ -10,6 +10,7 @@ export default function index() {
         {/* For large and Medium-sized Screen */}
         <div className="flex justify-between ">
           <div className=" flex space-x-3 items-center">
+
             <Link to="/">
             <h1 className=" font-bold text-3xl leading-6 text-blue-800 ">
               Portfolio.
@@ -107,24 +108,33 @@ export default function index() {
         {/* Mobile and small-screen devices (toggle Menu) */}
         <div
           id="MobileNavigation"
-          className={`${show ? "block" : "hidden"} sm:hidden mt-4 mx-auto`}
-        >
+          className={`${show ? "block" : "hidden"} sm:hidden mt-4 mx-auto`}>
+           
           <div className="flex flex-col gap-4 mt-4 w-80 mx-auto ">
+             <Link to="/about">
             <button className="rounded-md flex space-x-2 w-full h-10 font-normal text-sm leading-3 text-white bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:bg-indigo-600 hover:text-black hover:bg-white duration-150 justify-center items-center">
               About
             </button>
+            </Link>
 
+<Link to="/skill">
             <button className="rounded-md flex space-x-2 w-full h-10 font-normal text-sm leading-3 text-white bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:bg-indigo-600 hover:text-black hover:bg-white duration-150 justify-center items-center">
               Skills
             </button>
+            </Link>
 
+<Link to="/project">
             <button className="rounded-md flex space-x-2 w-full h-10 font-normal text-sm leading-3 text-white bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:bg-indigo-600 hover:text-black hover:bg-white duration-150 justify-center items-center">
               Projects
             </button>
+            </Link>
 
+<Link to="/contact">
             <button className="rounded-md flex space-x-2 w-full h-10 font-normal text-sm leading-3 text-white bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:bg-indigo-600 hover:text-black hover:bg-white duration-150 justify-center items-center">
               Contact
             </button>
+            </Link>
+            
           </div>
         </div>
       </nav>
